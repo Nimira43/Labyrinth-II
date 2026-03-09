@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const theta = Math.random() * 2 * Math.PI
     const phi = Math.acos((Math.random() * 2) - 1)
 
-    starPositions[i]     = radius * Math.sin(phi) * Math.cos(theta)
+    starPositions[i] = radius * Math.sin(phi) * Math.cos(theta)
     starPositions[i + 1] = radius * Math.sin(phi) * Math.sin(theta)
     starPositions[i + 2] = radius * Math.cos(phi)
   }
@@ -90,8 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const outerGround = new THREE.Mesh(
     new THREE.BoxGeometry(2000, 0.1, 2000),
     new THREE.MeshPhongMaterial({
-      color: '#d29b05'
-,
+      color: '#d29b05',
       shininess: 0,
       specular: '#000000'
     })
