@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const goalSphere = new THREE.Mesh(
     new THREE.SphereGeometry(1, 32, 32),
     new THREE.MeshPhongMaterial({
-      color: '#ffd700',
+      color: '#ff9d00',
       shininess: 100,
       emissive: '#ffa500'
     })
